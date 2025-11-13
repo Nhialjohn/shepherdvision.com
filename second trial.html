@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shepherd Vision - Photography & Videography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <div class="logo">SHEPHERD VISION</div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+      <a href="login.html">Staff Login</a>
+    </nav>
+
+    <!-- Hamburger icon for mobile -->
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Capturing Moments, Creating Stories</h1>
+      <p>Professional Photography and Videography Services to bring your vision to life.</p>
+      <button onclick="scrollToSection('portfolio')">View Portfolio</button>
+      <button onclick="scrollToSection('booking')">Book Now</button>
+    </div>
+  </section>
+
+
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <h2>About Shepherd Vision</h2>
+    <p>With years of experience in photography and videography, we specialize in capturing life's most precious moments. From weddings to corporate events, we bring creativity and professionalism to every project.</p>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <img src="img/weding 2.jpeg" alt="Photography Services" width="300" height="200">
+        <h3>Photography</h3>
+        <p>Professional photography for weddings, portraits, events, and more. High-quality images that tell your story.</p>
+      </div>
+      <div class="card">
+        <img src="img/video.jpg" alt="Videography Services" width="300" height="200">
+        <h3>Videography</h3>
+        <p>Cinematic videography services including weddings, commercials, and documentaries. Bringing your vision to life through video.</p>
+      </div>
+      <div class="card">
+        <img src="img/editing 22.jpg" alt="Editing Services" width="300" height="200">
+        <h3>Photo & Video Editing</h3>
+        <p>Expert editing services to enhance your photos and videos, ensuring they look professional and polished.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio">
+    <h2>Our Portfolio</h2>
+    <p>Take a look at some of our recent work.</p>
+    <div class="portfolio-gallery">
+      <img src="img/four.jpeg" alt="Wedding Photography" width="300" height="200">
+      <img src="img/three.jpeg" alt="Photo Editing" width="300" height="200">
+      <img src="img/one.jpeg" alt="Videography" width="300" height="200">
+      <img src="img/five.jpeg" alt="Event Photography" width="300" height="200">
+    </div>
+    <h3>Video Highlights</h3>
+    <div class="video-gallery">
+      <video width="300" height="200" controls>
+        <source src="img/MR N MRS IUEA.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video width="300" height="200" controls>
+        <source src="img/vd2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video width="300" height="200" controls>
+        <source src="img/vd3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- BOOKING SECTION -->
+  <section id="booking" class="booking">
+    <h2>Book Your Session</h2>
+    <p>Ready to capture your special moments? Get in touch to schedule your photography or videography session.</p>
+    <form class="booking-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Your Phone" required>
+      <select required>
+        <option value="">Select Service</option>
+        <option value="photography">Photography</option>
+        <option value="videography">Videography</option>
+        <option value="editing">Photo/Video Editing</option>
+      </select>
+      <textarea placeholder="Tell us about your event or project" rows="4" required></textarea>
+      <button type="submit">Send Booking Request</button>
+    </form>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <p>"Shepherd Vision captured our wedding beautifully. The photos are stunning and the team was professional throughout."</p>
+        <cite>- Sarah & John</cite>
+      </div>
+      <div class="testimonial">
+        <p>"Amazing videography work for our corporate event. The final video exceeded our expectations!"</p>
+        <cite>- ABC Company</cite>
+      </div>
+      <div class="testimonial">
+        <p>"Quick and professional photo editing. Highly recommend for anyone needing polished images."</p>
+        <cite>- Maria L.</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Say hello. The lens is ready..</p>
+    <p>Email: info@shepherdvision.com</p>
+    <p>Phone: +254 766 386 494 (+211 926 964 014)</p>
+    <p>Location: Juba, South Sudan</p>
+    <div class="social-links">
+      <a href="https://whatsapp.com/dl/" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp" width="40" height="40"></a>
+      <a href="https://www.instagram.com/shepherd.vision?igsh=MWZ6bTlzM3luejlqeA%3D%3D&utm_source=qr" target="_blank"><img src="img/instagram.png" alt="Instagram" width="40" height="40"></a>
+      <a href="https://www.tiktok.com/@creative_nhial_?_r=1&_t=ZM-91KyB8Ruh2q" target="_blank"><img src="img/tik-tok.png" alt="TikTok" width="40" height="40"></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Shepherd Vision. All rights reserved.</p>
+    <p>A photograph freezes time; a video teaches it to breathe again.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
